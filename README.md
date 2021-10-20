@@ -11,6 +11,18 @@ So with that being said I will use this repo to document the creation of Algonee
 
 Will update once completed with a step by step detailed guide on how I securely managed this little project.
 
-Main Points
+## Main Points
 
 Token is securely minted with air-gapped, multi-sig accounts, private node, No Ledgers
+Token was distributed manually, with goal commands and finally with an automated asset send python script using a private node and the algorand python sdk.
+
+
+## Setting Up A Node
+
+
+## Air Gapped Multi-sig accounts | Minting of Algorand ASA's 
+
+
+## Python SDK | The Sandbox | Autoken.py
+
+This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
