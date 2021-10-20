@@ -20,7 +20,7 @@ Token was distributed manually, with goal commands and finally with an automated
 ## Setting Up A Node
 
 
-## Air Gapped Multi-sig accounts | Minting of Algorand ASA's 
+## Air Gapped Multi-sig accounts | Secure Minting of Algorand ASA's 
 
 
 ## Python SDK | The Sandbox | Autoken.py
