@@ -1,0 +1,31 @@
+Create as many test accounts as you like and and save their details here! Make sure you add the asset to each, before running the script!
+
+ACCOUNT 1
+My address: 
+My private key: 
+My passphrase: 
+
+A2
+My address:
+My private key: 
+My passphrase: 
+
+A3
+My address: 
+My private key:
+My passphrase: 
+
+A4
+My address: 
+My private key: 
+My passphrase: 
+
+A5
+My address: 
+My private key: 
+My passphrase: 
+
+Send Address
+My address:
+My private key: 
+My passphrase: 

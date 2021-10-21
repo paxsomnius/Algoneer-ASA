@@ -16,12 +16,9 @@ Will update once completed with a step by step detailed guide on how I securely 
 Token is securely minted with air-gapped, multi-sig accounts, private node, No Ledgers
 Token was distributed manually, with goal commands and finally with an automated asset send python script using a private node and the algorand python sdk.
 
-
 ## Setting Up A Node
 
-
 ## Air Gapped Multi-sig accounts | Secure Minting of Algorand ASA's 
-
 
 ## Python SDK | The Sandbox | Autoken.py
 
