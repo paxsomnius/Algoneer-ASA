@@ -28,9 +28,16 @@ I used this guide from Purestake intially to learn the basics of interacting wit
 * [Purestake Blog: A secure Offline Multi-sig TX](https://www.purestake.com/blog/multisig-transaction-example-5-steps-to-sending-algo-securely/)
 * [Purestake Blog: Multi-sig Offline Approach explainer](https://www.purestake.com/blog/multisig-accounts-and-offline-keys-improve-security/)
 
-This provides a nice base for setting up your own offline Multi-sig ASA, depending on your projects requirements.
+This provides a nice base for setting up your own offline Multi-sig ASA, depending on your projects requirements. I would suggest getting an actual airgapped dedicated computer as a usb OS will soon become tedious.
 
 ## Python SDK | The Sandbox | Autoken.py
+
+Algorand dev docs win again with their quality documentation these two tutorial's will be all you need to get a sandbox up and running.
+
+*[Dev Docs pySDK](https://developer.algorand.org/docs/sdks/python/)
+*[Exploring Sandbox](https://developer.algorand.org/tutorials/exploring-the-algorand-sandbox/)
+
+### Autoken.py
 
 
 This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
