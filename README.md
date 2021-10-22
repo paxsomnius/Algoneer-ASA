@@ -39,5 +39,4 @@ Algorand dev docs win again with their quality documentation these two tutorial'
 
 ### Autoken.py
 
-
 This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
