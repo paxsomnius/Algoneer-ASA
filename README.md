@@ -34,9 +34,8 @@ This provides a nice base for setting up your own offline Multi-sig ASA, dependi
 
 Algorand dev docs win again with their quality documentation these two tutorial's will be all you need to get a sandbox up and running.
 
-*[Dev Docs pySDK](https://developer.algorand.org/docs/sdks/python/)
-
-*[Exploring the Sandbox](https://developer.algorand.org/tutorials/exploring-the-algorand-sandbox/)
+* [Dev Docs pySDK](https://developer.algorand.org/docs/sdks/python/)
+* [Exploring the Sandbox](https://developer.algorand.org/tutorials/exploring-the-algorand-sandbox/)
 
 ### Autoken.py
 
