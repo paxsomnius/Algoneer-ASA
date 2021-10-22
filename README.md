@@ -23,9 +23,10 @@ Algorand dev docs have provided an excellent guide to setting up a local partici
 ## Air Gapped Multi-sig accounts | Secure Minting of Algorand ASA's
 
 I used this guide from Purestake intially to learn the basics of interacting with the Algorand blockchain through a airgapped node.
-> [Purestake Blog: How to Set up Multi-sig accounts with offline Keys](https://www.purestake.com/blog/how-to-use-multisig-and-offline-keys-with-algorand/)
-> [Purestake Blog: A secure Offline Multi-sig TX](https://www.purestake.com/blog/multisig-transaction-example-5-steps-to-sending-algo-securely/)
-> [Purestake Blog: Multi-sig Offline Approach explainer](https://www.purestake.com/blog/multisig-accounts-and-offline-keys-improve-security/)
+
+* [Purestake Blog: How to Set up Multi-sig accounts with offline Keys](https://www.purestake.com/blog/how-to-use-multisig-and-offline-keys-with-algorand/)
+* [Purestake Blog: A secure Offline Multi-sig TX](https://www.purestake.com/blog/multisig-transaction-example-5-steps-to-sending-algo-securely/)
+* [Purestake Blog: Multi-sig Offline Approach explainer](https://www.purestake.com/blog/multisig-accounts-and-offline-keys-improve-security/)
 
 This provides a nice base for setting up your own offline Multi-sig ASA, depending on your projects requirements.
 
