@@ -76,7 +76,8 @@ def generate_algorand_keypair():
     print("My passphrase: {}".format(mnemonic.from_private_key(private_key)))
 
 
-generate_algorand_keypair() # Uncomment this line and run the script to use the keypair generator.
+generate_algorand_keypair()
+
 # Write down your address, private key, and the passphrase for later usage:
 # My address: 
 # My private key: 
