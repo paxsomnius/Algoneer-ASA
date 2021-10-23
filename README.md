@@ -54,18 +54,18 @@ cd /mnt/c/Users/$USERNAME/Path_to_sandbox
 ./sandbox up testnet -v
 ./sandbox status
 ```
+<sub>*turn off your vpn if you run into issues starting the sandbox*</sub>
 <samp>Once the sandbox has started, or caught up if its your first time running it, cd into the folder containing the autoken.py script and enter the following command,</samp>
-
-*turn off your vpn if you run into issues starting the sandbox*
 
 ```bash
 code .
 ```
 <samp>This should launch a remote instance of VS code connected to WSL:Distro you should see a little green box in the bottom left corner informing you of this status</samp>
 
-<samp>Assuming one is starting from scratch, we can either run the following goal commands in the bash terminal or use the python SDK generate_account.py script to make at least 11 accounts.</samp>
+<samp>Assuming one is starting from scratch, we can either run the following goal commands in the bash terminal or use the python SDK generate_account.py script to make at least 3 accounts preferably 10 to ~ accounts.</samp>
 
 #### *Python SDK generate_account.py*
+
 ```python
 from algosdk import account, mnemonic
 
@@ -84,11 +84,27 @@ generate_algorand_keypair()
 # My passphrase:
 ```
 
-#### *Generate accounts with goal commands*
+<samp>Make note of all account's addresses, private keys, and passphrases. Open add_asset.py in VS code</samp>
+
+<samp>Run</samp>
 
 ```bash
-./sandbox goal account new
+./sandbox status
 ```
+<samp>To get the current round, make that the first round and add 1000 for the last round, also the asset ID you will be sending.</samp>
+
+```python
+first_valid_round = 17365622
+last_valid_round = 17366621
+index = 22089866  # identifying index ID of the asset in this case Algoneer!
+```
+<samp> Input the private key and the address of the account adding the asset</samp>
+
+```python
+add_asset('private_key', 'public_key')
+```
+<sub>And run the script!</sub>
+
 
 
 

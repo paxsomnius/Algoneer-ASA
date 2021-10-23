@@ -70,5 +70,5 @@ def wait_for_confirmation(client, transaction_id, timeout):
         current_round += 1
     raise Exception(
         'pending tx not found in timeout rounds, timeout value = : {}'.format(timeout))
-
+# Input the private key and the address of the account adding the asset
 add_asset('private_key', 'public_key')
