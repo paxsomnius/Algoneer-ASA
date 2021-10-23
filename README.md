@@ -41,7 +41,7 @@ If your using windows, cause Docker, I recomend installing the windows terminal 
 
 ### Autoken.py
 
-Ok so you have Docker installed, windows terminal, wsl2, the pythonsdk installed in wsl, the docker container is running and the remote wsl extension installed in VS code.
+Ok so you have Docker installed, windows terminal, wsl2, the pythonsdk installed in wsl, the docker container is running and the remote wsl extension installed in VS code. Also you have minted your asset on the testnet and are ready to distribute.
 
 <samp>Open up your terminal, enter your distro and cd into the sandbox folder</samp>
 
@@ -103,9 +103,51 @@ index = 22089866  # identifying index ID of the asset in this case Algoneer!
 ```python
 add_asset('private_key', 'public_key')
 ```
-<sub align="center">And run the script!</sub>
+And run the script! Repeat until all of your test accounts have the asset your sending added.
 
+<samp>Now set aside one account to be your send account load up the send account with enough of the ASA and testnet algo to cover testing of the autoken script and record all of the details in test_Accounts.txt</samp>
 
+```
+Create as many test accounts as you like and and save their details here! Make sure you add the asset to each, before running the script!
+
+ACCOUNT 1
+My address: 
+My private key: 
+My passphrase: 
+```
+
+<samp>Take your test account address's and cp them into the test_pubK_list.txt, one per line</samp>
+
+```
+6FJYFMPVFEKIQTEWYLOSN3QJLIIX74M2LJUX2PPW7V3PK7YZZRXCVTFIZQ
+56VH7LJ6WEBFC34CWYP7JQBIHGKWBCJYCULZQPOOHRMZPV5DVCQHJDVHB4
+OQIGSARKI5VWGA2SQOWNJMT7S5KEYXPTTPY53BRCLQRSBW2WBIQMTYXRPQ
+YSL4FN4N2PP2QZFLSR5ZKOBEJLTK4U5OP76WU3GWY7IVAIEIMHMLHFLTI4
+OA23JV5S5CJFNUNMWE3HHTYL3U2GLYIRZWOCZN43PZRB2NW5MQW5XAANBA
+```
+
+<samp>Open Autoken.py, modifiy the rounds, the send amount, and the index ID of the asset</samp>
+
+```python
+# build transaction
+    fee = 1000
+    first_valid_round = 17380481
+    last_valid_round = 17381479
+    gh = "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
+    receiver = key
+    amount = 1  # amount of assets to transfer
+    index = 22089866  # ID of the asset
+```
+
+<samp>Replace private_key and send_address with your private key and send address!</samp>
+
+```python
+send_transactions('private_key', 'send_address')
+```
+
+_Push Play!_
+
+<samp>The script should run and loop through the account key list, sending one transaction to each until the list is empty.</samp> 
 
 
 This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
