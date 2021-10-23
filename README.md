@@ -40,12 +40,38 @@ Algorand dev docs win again with their quality documentation these two tutorial'
 If your using windows, cause Docker, I recomend installing the windows terminal and the VS code remote wsl extension.
 
 ### Autoken.py
-Ok so you have Docker installed, windows terminal, wsl2, the pythonsdk installed in wsl, the docker container running and the remote wsl extension installed in VS code.
 
-<samp>Open up your terminal and cd into the sandbox folder</samp>
+Ok so you have Docker installed, windows terminal, wsl2, the pythonsdk installed in wsl, the docker container is running and the remote wsl extension installed in VS code.
+
+<samp>Open up your terminal, enter your distro and cd into the sandbox folder</samp>
 
 ```bash
 cd /mnt/c/Users/$USERNAME/Path_to_Docker/sandbox
 ```
+<samp>Enter commands</samp>
+
+```bash
+./sandbox up -v
+./sandbox status
+```
+<samp>Once the sandbox has started, or caught up if its your first time running it, cd into the folder containing the autoken.py script and enter the following command</samp>
+
+```bash
+code .
+```
+<samp>This should launch a remote instance of VS code connected to WSL:Distro you should see a little green box in the bottom left corner informing you of this status</samp>
+
+<samp>Assuming one is starting from scratch, run the following commands</samp>
+
+```bash
+./sandbox goal wallet new wallet_name
+```
+<samp>Once that is done and backed up, we can either run the following commands in the bash terminal or use the python SDK generate_account.py script to make at least 11 accounts.</samp>
+
+#### *Python SDK generate_account.py*
+
+
+#### *Generate accounts with goal commands*
+
 
 This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
