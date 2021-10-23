@@ -46,32 +46,48 @@ Ok so you have Docker installed, windows terminal, wsl2, the pythonsdk installed
 <samp>Open up your terminal, enter your distro and cd into the sandbox folder</samp>
 
 ```bash
-cd /mnt/c/Users/$USERNAME/Path_to_Docker/sandbox
+cd /mnt/c/Users/$USERNAME/Path_to_sandbox
 ```
 <samp>Enter commands</samp>
 
 ```bash
-./sandbox up -v
+./sandbox up testnet -v
 ./sandbox status
 ```
-<samp>Once the sandbox has started, or caught up if its your first time running it, cd into the folder containing the autoken.py script and enter the following command</samp>
+<samp>Once the sandbox has started, or caught up if its your first time running it, cd into the folder containing the autoken.py script and enter the following command,</samp>
+
+*turn off your vpn if you run into issues starting the sandbox*
 
 ```bash
 code .
 ```
 <samp>This should launch a remote instance of VS code connected to WSL:Distro you should see a little green box in the bottom left corner informing you of this status</samp>
 
-<samp>Assuming one is starting from scratch, run the following commands</samp>
-
-```bash
-./sandbox goal wallet new wallet_name
-```
-<samp>Once that is done and backed up, we can either run the following commands in the bash terminal or use the python SDK generate_account.py script to make at least 11 accounts.</samp>
+<samp>Assuming one is starting from scratch, we can either run the following goal commands in the bash terminal or use the python SDK generate_account.py script to make at least 11 accounts.</samp>
 
 #### *Python SDK generate_account.py*
+```python
+from algosdk import account, mnemonic
 
+def generate_algorand_keypair():
+    private_key, address = account.generate_account()
+    print("My address: {}".format(address))
+    print("My private key: {}".format(private_key))
+    print("My passphrase: {}".format(mnemonic.from_private_key(private_key)))
+
+# Write down your address, private key, and the passphrase for later usage
+generate_algorand_keypair() # Uncomment this line and run the script to use the keypair generator
+# My address: 
+# My private key: 
+# My passphrase:
+```
 
 #### *Generate accounts with goal commands*
+
+```bash
+./sandbox goal account new
+```
+
 
 
 This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
