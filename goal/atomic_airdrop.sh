@@ -1,3 +1,4 @@
+##!/bin/bash
 #Atomic AirDrop Goal Commands
 
 #Step 1: Create the Transactions

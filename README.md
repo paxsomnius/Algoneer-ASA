@@ -37,6 +37,15 @@ Algorand dev docs win again with their quality documentation these two tutorial'
 * [Dev Docs pySDK](https://developer.algorand.org/docs/sdks/python/)
 * [Exploring the Sandbox](https://developer.algorand.org/tutorials/exploring-the-algorand-sandbox/)
 
+If your using windows, cause Docker, I recomend installing the windows terminal and the VS code remote wsl extension.
+
 ### Autoken.py
+Ok so you have Docker installed, windows terminal, wsl2, the pythonsdk installed in wsl, the docker container running and the remote wsl extension installed in VS code.
+
+<samp>Open up your terminal and cd into the sandbox folder</samp>
+
+```bash
+cd /mnt/c/Users/$USERNAME/Path_to_Docker/sandbox
+```
 
 This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
