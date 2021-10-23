@@ -103,7 +103,7 @@ index = 22089866  # identifying index ID of the asset in this case Algoneer!
 ```python
 add_asset('private_key', 'public_key')
 ```
-<sub>And run the script!</sub>
+<sub align="center">And run the script!</sub>
 
 
 
