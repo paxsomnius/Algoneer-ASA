@@ -152,5 +152,3 @@ _Push Play!_
 
 This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
 
-If this repo has blessed you to the point you want to give back, buy me a beer,
-Algorand address: X4HDO7GP4NCYZZ4OCWDBCKAUXO4XJK3GLTTJGJQ63FNVXSMPL4PBP52RWA
