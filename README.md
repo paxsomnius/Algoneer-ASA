@@ -11,6 +11,10 @@ So with that being said I will use this repo to document the creation of Algonee
 
 Will update once completed with a step by step detailed guide on how I securely managed this little project.
 
+## Update June 23'
+FOSS'D Dotty the DeFi lottery source code!
+FOSS'D our reddit bot! & a python Algorand QR Code Maker
+
 ## Main Points
 
 Token is securely minted with air-gapped, multi-sig accounts, private node, No Ledgers
@@ -151,4 +155,3 @@ _Push Play!_
 
 
 This project was a great introduction into blockchain programming and I have learned alot so much this project has morphed into a DAPP, check back here or the socials for updates.
-
